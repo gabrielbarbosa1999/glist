@@ -1,15 +1,11 @@
 package dev.gabrielbarbosa.glist.dto;
 
 import dev.gabrielbarbosa.glist.entitites.Game;
-import dev.gabrielbarbosa.glist.entitites.GameList;
-import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
 import org.springframework.beans.BeanUtils;
 
 @Getter
-@Setter
 @AllArgsConstructor
 public class GameDTO {
 

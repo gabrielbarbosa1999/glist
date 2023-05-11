@@ -3,11 +3,9 @@ package dev.gabrielbarbosa.glist.entitites;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
-import org.hibernate.annotations.ManyToAny;
 
 import java.util.Objects;
 

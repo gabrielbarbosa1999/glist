@@ -3,9 +3,9 @@ package dev.gabrielbarbosa.glist.dto;
 import dev.gabrielbarbosa.glist.entitites.Game;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 
 @Getter
+@AllArgsConstructor
 public class GameMinDTO {
     private Long id;
     private String title;
