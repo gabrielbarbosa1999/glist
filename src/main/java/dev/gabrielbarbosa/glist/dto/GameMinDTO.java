@@ -1,6 +1,7 @@
 package dev.gabrielbarbosa.glist.dto;
 
 import dev.gabrielbarbosa.glist.entitites.Game;
+import dev.gabrielbarbosa.glist.projections.GameMinProjection;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -19,6 +20,14 @@ public class GameMinDTO {
         this.year = game.getYear();
         this.imgUrl = game.getImgUrl();
         this.shortDescription = game.getShortDescription();
+    }
+
+    public GameMinDTO(GameMinProjection gameMinProjection) {
+        this.id = gameMinProjection.getId();
+        this.title = gameMinProjection.getTitle();
+        this.year = gameMinProjection.getYear();
+        this.imgUrl = gameMinProjection.getImgUrl();
+        this.shortDescription = gameMinProjection.getShortDescription();
     }
 
 }
