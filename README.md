@@ -19,7 +19,7 @@ https://glist-production.up.railway.app/games/lists - LIsta todas as lista de ti
 https://glist-production.up.railway.app/games/lists/{id}/games - Exibe o games que possui na lista do id enviado
 ```
 # Tecnologias utilizadas
-- 
+
 - Java
 - Spring Boot
 - JPA / Hibernate
